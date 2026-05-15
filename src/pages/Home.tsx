@@ -67,14 +67,14 @@ export default function Home() {
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? "bg-background/95 backdrop-blur-md py-4 shadow-sm border-b border-[#faddb4]" : "bg-transparent py-6"}`}>
         <div className="container mx-auto px-6 flex items-center justify-between">
           <Logo />
-          <nav className="hidden lg:flex items-center gap-8 font-medium text-sm text-[#402b30]">
-            <button onClick={() => handleNav("inicio")} className="hover:text-[#DA4F23] transition-colors">Início</button>
-            <button onClick={() => handleNav("sobre")} className="hover:text-[#DA4F23] transition-colors">Sobre</button>
-            <button onClick={() => handleNav("diferenciais")} className="hover:text-[#DA4F23] transition-colors">Diferenciais</button>
-            <button onClick={() => handleNav("servicos")} className="hover:text-[#DA4F23] transition-colors">Serviços</button>
-            <button onClick={() => handleNav("portfolio")} className="hover:text-[#DA4F23] transition-colors">Portfólio</button>
-            <button onClick={() => handleNav("depoimentos")} className="hover:text-[#DA4F23] transition-colors">Depoimentos</button>
-            <Button onClick={() => handleNav("contato")} className="bg-[#DA4F23] hover:bg-[#DA4F23]/90 text-white rounded-none ml-4">
+          <nav className="hidden lg:flex items-center gap-8 font-small text-sx text-[#DA4F23]">
+            <button onClick={() => handleNav("inicio")} className="hover:text-[#ffffff] transition-colors">Início</button>
+            <button onClick={() => handleNav("sobre")} className="hover:text-[#ffffff] transition-colors">Sobre</button>
+            <button onClick={() => handleNav("diferenciais")} className="hover:text-[#ffffff] transition-colors">Diferenciais</button>
+            <button onClick={() => handleNav("servicos")} className="hover:text-[#ffffff] transition-colors">Serviços</button>
+            <button onClick={() => handleNav("portfolio")} className="hover:text-[#ffffff] transition-colors">Portfólio</button>
+            <button onClick={() => handleNav("depoimentos")} className="hover:text-[#ffffff] transition-colors">Depoimentos</button>
+            <Button onClick={() => handleNav("contato")} className="bg-[#DA4F23] hover:bg-[#000]/90 text-white rounded-none ml-4">
               Fale Conosco
             </Button>
           </nav>

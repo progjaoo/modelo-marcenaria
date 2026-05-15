@@ -359,7 +359,7 @@ export default function Home() {
               {
                 text: "O closet ficou exatamente como sonhamos. Detalhe e cuidado em cada peça, desde a medição até a limpeza pós-instalação.",
                 author: "Cliente Residencial",
-                role: "São Paulo, SP"
+                role: "Desenvolvido por: João Marcos Valente"
               }
             ].map((test, i) => (
               <motion.div key={i} {...fadeIn} transition={{ delay: i * 0.1 }} className="bg-white p-10 border border-[#faddb4] shadow-sm relative">
